@@ -9,7 +9,7 @@ import {
   FaHorseHead, 
   FaDog, 
   FaChess, 
-  FaBoxing, 
+  FaFistRaised, 
   FaRunning,
   FaVolleyballBall,
   FaHockeyPuck,
@@ -153,7 +153,7 @@ const Sidebar = () => {
     { name: 'Baseball', icon: <FaBaseballBall />, count: '1' },
     { name: 'Ice Hockey', icon: <FaHockeyPuck />, count: '5' },
     { name: 'Virtual Cricket', icon: <GiCricketBat />, count: '1' },
-    { name: 'Boxing', icon: <FaBoxing />, count: '5' },
+    { name: 'Boxing', icon: <FaFistRaised />, count: '5' },
     { name: 'Rugby League', icon: <FaRunning />, count: '0' },
     { name: 'Darts', icon: <GiDart />, count: '0' },
     { name: 'Esoccer', icon: <GiCubes />, count: '0' }
