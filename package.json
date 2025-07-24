@@ -1,0 +1,35 @@
+{
+  "name": "static-to-react-converter",
+  "version": "1.0.0",
+  "description": "Convert static HTML/CSS/JS projects to React + Vite + TypeScript + Supabase",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "@supabase/supabase-js": "^2.39.3",
+    "lucide-react": "^0.344.0",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@types/node": "^20.11.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "yauzl": "^3.0.0",
+    "@types/yauzl": "^2.10.3",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.2.0",
+    "@types/fs-extra": "^11.0.4",
+    "archiver": "^6.0.1"
+  }
+}
